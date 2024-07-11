@@ -1,0 +1,10 @@
+t=int(input())
+x=int(input())
+y=int(input())
+a=int((x/100)*t)
+b=int((y/100)*(t-a))
+r=t-(a+b)
+div=r//3
+print(int(a))
+print(int(b))
+print(int(div))
